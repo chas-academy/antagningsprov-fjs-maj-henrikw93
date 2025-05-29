@@ -8,6 +8,19 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
 
+    const numbers = [1, 8, 14, 26, 17, 4, 19, 53]
+
+    function sort(array) {
+        for (let item of array) {
+            if (item % 2 === 0) {
+                console.log(item, "jämt")
+            } else {
+                console.log(item, "udda")
+            }
+        }
+    }
+
+    sort(numbers)
   
 }
 
